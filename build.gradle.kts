@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     implementation(platform("run.halo.tools.platform:plugin:2.20.0-SNAPSHOT"))
+    implementation("io.github.oshai:kotlin-logging-jvm:6.0.9")
     compileOnly("run.halo.app:api")
 
     testImplementation(kotlin("test"))

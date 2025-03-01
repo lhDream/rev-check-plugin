@@ -5,7 +5,7 @@ apiVersion: plugin.halo.run/v1alpha1
 kind: Plugin
 metadata:
   # The name defines how the plugin is invoked, A unique name
-  name: halo-plugin-kotlin-template
+  name: rev-check-plugin
 spec:
   enabled: false
   requires: ">=2.20.0"
@@ -16,8 +16,8 @@ spec:
   homepage: https://github.com/halo-dev/plugin-starter#readme
   repo: https://github.com/halo-dev/plugin-starter
   issues: https://github.com/halo-dev/plugin-starter/issues
-  displayName: "kotlin插件快速开始模板"
-  description: "这是一个kotlin插件快速开始模板"
+  displayName: "评论自动审核"
+  description: "这是一个评论自动审核的插件,基于AI进行审核"
   license:
     - name: "GPL-3.0"
       url: "https://github.com/halo-dev/plugin-starter/blob/main/LICENSE"
